@@ -1,0 +1,26 @@
+[
+  {
+    "nombre": "Camisa de Lino Blanca",
+    "talla": 38,
+    "precio": 650.00,
+    "stock": 12
+  },
+  {
+    "nombre": "Pantalón de Lino Beige",
+    "talla": 32,
+    "precio": 890.00,
+    "stock": 4
+  },
+  {
+    "nombre": "Guayabera Clásica Manga Larga",
+    "talla": 40,
+    "precio": 1250.00,
+    "stock": 8
+  },
+  {
+    "nombre": "Short de Lino Arena",
+    "talla": 34,
+    "precio": 520.00,
+    "stock": 0
+  }
+]
