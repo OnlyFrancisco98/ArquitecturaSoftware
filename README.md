@@ -7,7 +7,7 @@ Aplicación web para la gestión de inventario de prendas (crear, consultar, edi
 ## Tecnologías utilizadas
 
 * **Backend:** Java 17, Spring Boot, Spring Data JPA (Hibernate), Maven
-* **Base de datos:** MySQL 8 (gestionada con Docker Compose)
+* **Base de datos:** MySQL (gestionada con Docker Compose)
 * **Frontend:** HTML5, CSS3, JavaScript (Fetch API)
 
 ---
@@ -91,3 +91,17 @@ Una vez que el servidor haya iniciado en el puerto `8080`, abre tu navegador y e
    docker compose down
    ```
    *(Si deseas detener el contenedor y **eliminar todos los datos** de la base de datos para empezar desde cero, ejecuta `docker compose down -v`)*.
+
+---
+
+## Acceso a la base de datos
+Para tener una visualización completa de la base de datos via navegador, se integró la herramienta `whodb`.
+Accede a ella siguiendo los pasos:
+
+1. En tu navegador, ingresa a `localhost:8081`.
+2. En el apartado `engine` selecciona `MySQL`.
+3. Introduce los siguientes datos en los apartados correspondientes:
+   1. `Host or connection string`: mysql-db
+   2. `Username`: root
+   3. `Password`: root
+   4. `Database`: inventario_db
